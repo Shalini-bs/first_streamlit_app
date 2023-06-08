@@ -37,7 +37,7 @@ streamlit.text(fruityvice_response.json()) #just writes the data to the screen
 fruityvice_normalized = pandas.json_normalize(fruityvice_response.json()) 
 
 #to show result in streamlet
-steeamlet.dataframe(fruityvice_normalized) 
+streamlet.dataframe(fruityvice_normalized) 
 
 
 
